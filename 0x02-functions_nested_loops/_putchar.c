@@ -1,4 +1,4 @@
-#include <unlistd.h>
+#include <unistd.h>
 
 /**
  * _puchar - writes the character c to stdout
@@ -8,5 +8,5 @@
  */
 int _putchar(char c)
 {
-	return (write(1, $c, 1));
+	return (write(1, &c, 1));
 }
