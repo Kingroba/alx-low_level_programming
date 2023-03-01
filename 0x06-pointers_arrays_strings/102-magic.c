@@ -2,7 +2,7 @@
 
 	/**
 	 * main - your line of code here...
-	 * Remember
+	 * Return: 0
 	 */
 int main(void)
 {
