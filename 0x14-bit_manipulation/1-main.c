@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main - is the code checker
+ * Return: Return 0.
  */
 int main(void)
 {
