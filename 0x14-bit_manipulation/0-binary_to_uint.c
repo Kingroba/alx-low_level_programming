@@ -11,8 +11,8 @@ unsigned int binary_to_uint(const char *o)
 	int m;
 	unsigned int n;
 
-	j = 0;
-	if (!b)
+	n = 0;
+	if (!o)
 		return (0);
 	for (m = 0; o[m] != '\0'; m++)
 	{
@@ -25,6 +25,5 @@ unsigned int binary_to_uint(const char *o)
 		if (o[m] == '1')
 			n += 1;
 	}
-	return (j);
+	return (n);
 }
-i
