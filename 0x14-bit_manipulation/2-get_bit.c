@@ -20,4 +20,3 @@ int get_bit(unsigned long int b, unsigned int index)
 
 	return (0);
 }
-i
