@@ -8,12 +8,12 @@
  */
 int set_bit(unsigned long int *b, unsigned int index)
 {
-	unsigned long int q;
+	unsigned long int a;
 
 	if (index > (sizeof(unsigned long int) * 8 - 1))
 		return (-1);
-	q = 1 << index;
-	*b = b | ;
+	a = 1 << index;
+	*b = *b | a;
 
 	return (1);
 }
